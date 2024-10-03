@@ -1,0 +1,9 @@
+//仅仅用作路径提示，实际上的@路径转换在vite.config.js中配置
+{
+    "compilerOptions" : {
+      "baseUrl" : "./",
+      "paths" : {
+        "@/*":["src/*"]
+      }
+    }
+  }
